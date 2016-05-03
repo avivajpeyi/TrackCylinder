@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBE128D1CD51CFE00D758D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE128C1CD51CFE00D758D6 /* main.m */; };
+		6DBE128F1CD51CFE00D758D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE128E1CD51CFE00D758D6 /* Assets.xcassets */; };
+		6DBE12921CD51CFE00D758D6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE12901CD51CFE00D758D6 /* MainMenu.xib */; };
+		6DBE129B1CD51D6500D758D6 /* TrackView.M in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE129A1CD51D6500D758D6 /* TrackView.M */; };
+		C4DB48021CD7CCEE00C5EA2F /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4DB48001CD7CCEE00C5EA2F /* triangle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DBE12851CD51CFE00D758D6 /* TrackCylinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackCylinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBE128C1CD51CFE00D758D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DBE128E1CD51CFE00D758D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBE12911CD51CFE00D758D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6DBE12931CD51CFE00D758D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBE12991CD51D6500D758D6 /* TrackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackView.h; sourceTree = "<group>"; };
+		6DBE129A1CD51D6500D758D6 /* TrackView.M */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = TrackView.M; sourceTree = "<group>"; };
+		C4DB48001CD7CCEE00C5EA2F /* triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
+		C4DB48011CD7CCEE00C5EA2F /* triangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = triangle.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBE12821CD51CFE00D758D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBE127C1CD51CFE00D758D6 = {
+			isa = PBXGroup;
+			children = (
+				6DBE12871CD51CFE00D758D6 /* TrackCylinder */,
+				6DBE12861CD51CFE00D758D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBE12861CD51CFE00D758D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE12851CD51CFE00D758D6 /* TrackCylinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBE12871CD51CFE00D758D6 /* TrackCylinder */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE128E1CD51CFE00D758D6 /* Assets.xcassets */,
+				6DBE12901CD51CFE00D758D6 /* MainMenu.xib */,
+				6DBE12991CD51D6500D758D6 /* TrackView.h */,
+				C4DB48001CD7CCEE00C5EA2F /* triangle.cpp */,
+				C4DB48011CD7CCEE00C5EA2F /* triangle.hpp */,
+				6DBE129A1CD51D6500D758D6 /* TrackView.M */,
+				6DBE12931CD51CFE00D758D6 /* Info.plist */,
+				6DBE128B1CD51CFE00D758D6 /* Supporting Files */,
+			);
+			path = TrackCylinder;
+			sourceTree = "<group>";
+		};
+		6DBE128B1CD51CFE00D758D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE128C1CD51CFE00D758D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBE12841CD51CFE00D758D6 /* TrackCylinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBE12961CD51CFE00D758D6 /* Build configuration list for PBXNativeTarget "TrackCylinder" */;
+			buildPhases = (
+				6DBE12811CD51CFE00D758D6 /* Sources */,
+				6DBE12821CD51CFE00D758D6 /* Frameworks */,
+				6DBE12831CD51CFE00D758D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackCylinder;
+			productName = TrackCylinder;
+			productReference = 6DBE12851CD51CFE00D758D6 /* TrackCylinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBE127D1CD51CFE00D758D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "John Lindner";
+				TargetAttributes = {
+					6DBE12841CD51CFE00D758D6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6DBE12801CD51CFE00D758D6 /* Build configuration list for PBXProject "TrackCylinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBE127C1CD51CFE00D758D6;
+			productRefGroup = 6DBE12861CD51CFE00D758D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBE12841CD51CFE00D758D6 /* TrackCylinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBE12831CD51CFE00D758D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBE128F1CD51CFE00D758D6 /* Assets.xcassets in Resources */,
+				6DBE12921CD51CFE00D758D6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBE12811CD51CFE00D758D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBE129B1CD51D6500D758D6 /* TrackView.M in Sources */,
+				C4DB48021CD7CCEE00C5EA2F /* triangle.cpp in Sources */,
+				6DBE128D1CD51CFE00D758D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DBE12901CD51CFE00D758D6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBE12911CD51CFE00D758D6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBE12941CD51CFE00D758D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6DBE12951CD51CFE00D758D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6DBE12971CD51CFE00D758D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackCylinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wooster.TrackCylinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DBE12981CD51CFE00D758D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrackCylinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wooster.TrackCylinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBE12801CD51CFE00D758D6 /* Build configuration list for PBXProject "TrackCylinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBE12941CD51CFE00D758D6 /* Debug */,
+				6DBE12951CD51CFE00D758D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBE12961CD51CFE00D758D6 /* Build configuration list for PBXNativeTarget "TrackCylinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBE12971CD51CFE00D758D6 /* Debug */,
+				6DBE12981CD51CFE00D758D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBE127D1CD51CFE00D758D6 /* Project object */;
+}
